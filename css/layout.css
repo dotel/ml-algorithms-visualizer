@@ -1,0 +1,90 @@
+body {
+  background: #fdf8fb;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.error {
+  margin-top: 16px;
+  font-size: 16px;
+  color: red;
+}
+
+.heatmap {
+  border-collapse: collapse;
+  padding: 10px;
+  margin: auto;
+}
+
+.heatmap th,
+.heatmap td {
+  font-size: 22px;
+  font-weight: normal;
+  padding: 8px 20px;
+}
+
+.heatmap th {
+  padding: 10px;
+}
+
+.heatmap .data-column {
+  border: 1px solid black;
+  font-size: 40px;
+  padding: 20px 10px;
+}
+
+.btn {
+  padding: 8px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.9;
+  color: #ffffff;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-primary {
+  background: #252627;
+}
+
+.btn-red {
+  background: #d3401f;
+  opacity: 0.85;
+}
+
+.btn-yellow {
+  background: #fff86c;
+  color: #000000;
+  opacity: 0.8;
+}
+
+.btn.disabled {
+  cursor: not-allowed;
+}
+
+.btn.disabled:hover {
+  opacity: 0.9;
+}
+
+.btn-red.disabled {
+  opacity: 0.85;
+}
+
+.btn-yellow.disabled {
+  opacity: 0.8;
+}
